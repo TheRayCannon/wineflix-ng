@@ -10,6 +10,10 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { AvatarComponent } from './avatar/avatar.component';
 import { HeroComponent } from './hero/hero.component';
 import { ButtonsComponent } from './buttons/buttons.component';
+import { WineListComponent } from './wine-list/wine-list.component';
+import { DrunkComponent } from './drunk/drunk.component';
+import { ProgressComponent } from './progress/progress.component';
+import { HeroImageComponent } from './hero-image/hero-image.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +23,11 @@ import { ButtonsComponent } from './buttons/buttons.component';
     NavBarComponent,
     AvatarComponent,
     HeroComponent,
-    ButtonsComponent
+    ButtonsComponent,
+    WineListComponent,
+    DrunkComponent,
+    ProgressComponent,
+    HeroImageComponent
   ],
   imports: [
     BrowserModule,
