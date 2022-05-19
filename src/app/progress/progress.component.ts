@@ -6,7 +6,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./progress.component.css']
 })
 export class ProgressComponent {
-
   @Input() progress!: number;
-
 }
